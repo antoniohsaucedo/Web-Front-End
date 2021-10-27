@@ -1,0 +1,118 @@
+body {
+    height: 1080px;
+    width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: rgb(255, 255, 255);
+
+font-family: 'Cinzel', serif;
+font-size: 12pt;
+font-weight: 10pt;
+}
+
+.rectangle1 {
+    background-color: rgb(201, 201, 201);
+    width: 100%;
+    height: 50px;
+    
+    display: inline-block;
+    
+}
+
+.square{
+    background-color:rgba(91,143,220,255);
+    width: 30px;
+    height: 30px;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    
+
+}
+
+
+.rectangle2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    
+}
+
+.rectangle3 {
+    background-color:rgba(91,143,220,255);
+    width: 100%;
+    height: 200vh;
+    display: inline-block;
+    
+}
+
+.rectangle4 {
+    background-color: rgba(123,224,195,255);
+    width: 100%;
+    height: 200vh;
+    display: inline-block;
+    
+}
+
+
+.rectangle5 {
+    background-color:rgba(194,231,145,255);
+    width: 100%;
+    height: 200vh;
+    display: inline-block;
+    
+}
+
+
+.rectangle6 {
+    background-color: rgba(245,231,82,255) ;
+    width: 100%;
+    height: 200vh;
+    display: inline-block;
+
+  
+    
+}
+
+.rectangle6 p {
+    font-size: 18pt;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    color:rgb(255, 255, 255)
+    
+}
+
+.floatingicon {
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:rgb(0, 0, 0);
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  
+    
+}
+
+
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
